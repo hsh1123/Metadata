@@ -17,6 +17,10 @@ public class Order {
         this.disCountPrice = disCountPrice;
     }
 
+    public int calculatePrice(){
+        return itemPrice - disCountPrice;
+    }
+
     public Long getMemberId(){
         return memberId;
     }

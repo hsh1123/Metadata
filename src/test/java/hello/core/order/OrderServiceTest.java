@@ -7,7 +7,7 @@ import hello.core.member.MemberServiceImpl;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
-class OrderServiceTest {
+public class OrderServiceTest {
 
     MemberService memberService = new MemberServiceImpl();
     OrderService orderService = new OrderServiceImpl();
